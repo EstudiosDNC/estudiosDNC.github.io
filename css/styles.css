@@ -1,0 +1,215 @@
+/* Estilos para el menú y el icono de mini-logo-dnc-rosa.png */
+header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+  background-color: #333;
+  margin: -10px;
+  margin-right: 10px;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999; /* Asegura que el menú esté por encima de otros elementos */
+  margin-bottom: 60px;
+}
+
+main{
+ margin-top: 90px; /* Ajusta el valor según el alto del menú */
+ }
+
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-mini {
+  width: 70px;
+  height: auto;
+  margin-left: 25px;
+}
+
+/* Estilos para el menú */
+.menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 10px;
+  margin-left: -20px;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.menu-image {
+  width: 100px;
+  height: 60px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.menu-image:hover {
+  filter: none;
+}
+
+/* ... otros estilos CSS ... */
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-container .transition-item {
+  flex-direction: column;
+}
+
+.services-container .transition-item:nth-child(even) {
+  flex-direction: column-reverse;
+}
+
+.banner1 {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-image1 {
+  margin-top: 10px;
+  width: 45%;
+  height: auto;
+  object-fit: cover;
+}
+
+.banner-content1 {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-image {
+  margin-top: -100px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-content {
+  position: absolute;
+  top: 110;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transition-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  opacity: 0;
+  animation: inherit;
+  animation: fadeIn 10s forwards;
+}
+
+.transition-item:nth-child(even) {
+  flex-direction: column-reverse;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.transition-item:hover {
+  transform: scale(1.1);
+}
+
+.transition-item:hover .transition-image {
+  filter: grayscale(0%); /* Retomar el color original al pasar el cursor */
+}
+
+.transition-image {
+  width: 400px;
+  height: 300px;
+  filter: grayscale(100%); /* Aplicar escala de grises inicialmente */
+  transition: filter 0.3s; /* Agregar transición al efecto de color */
+}
+
+.transition-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10%;
+  transform: translateX(0);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  opacity: 100%;
+  transition: opacity 0.3s, transform 0.3s; /* Agregar transición para opacity y transform */
+}
+
+.transition-item:hover .transition-description {
+  opacity: 1; /* Hacer el texto visible al pasar el cursor */
+  transform: translateX(0%); /* Mostrar el texto dentro del contenedor */
+}
+
+
+/* ******************************* */ 
+
+<- Derechos reservados aqui 
+
+.trademark{
+  position: revert-layer;
+  bottom: 0px;
+  left: 10px;
+  color: #c52a6c; /* Cambia el color del correo a #c52a6c */
+  margin-left: 100px; /*aplica el margen izquierdo*/
+}
+
+
+/*descripción */
+
+#trademark{ 
+position: ;}
