@@ -70,10 +70,10 @@ nav {
 
 /* Estilos de las secciones del portafolio */
 
-.ilustraciones h2,
-.edicion-videos h2,
-.edicion-imagenes h2,
-.stickers h2 {
+.ilustraciones h2 color: #c52a6c; font-family: "Bungee", sans-serif;,
+.edicion-videos h2 color: #c52a6c; font-family: "Bungee", sans-serif;,
+.edicion-imagenes h2 color: #c52a6c; font-family: "Bungee", sans-serif;,
+.stickers h2 color: #c52a6c; font-family: "Bungee", sans-serif; {
   font-size: 24px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -84,18 +84,18 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 10px;
   justify-items: center;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .gallery img {
-  width: 100px;
-  height: auto;
+  width: 50%;
+  height: 50%;
   margin-top: 10px;
 }
 
 .gallery video {
-  width: 100px;
-  height: auto;
+  width: 100%;
+  height: 100%;
   margin-top: 10px;
 }
 
@@ -119,8 +119,8 @@ footer {
 /* Estilos de las secciones del portafolio */
 
 .portfolio-image {
-  width: 50px;
-  height: auto;
+  width: 50%;
+  height: 50%;
   filter: grayscale(100%);
   transition: filter 0.3s ease, transform 0.3s ease;
   margin-top: 10px;
@@ -135,8 +135,8 @@ footer {
 
 
 .video-item {
-  max-width: 400px;
-  max-height: 700px;
+  max-width: 100%;
+  max-height: 100%;
   margin-top: 10px;
 }
 
