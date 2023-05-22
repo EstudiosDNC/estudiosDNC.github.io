@@ -213,3 +213,157 @@ main{
 
 #trademark{ 
 position: ;}
+
+
+
+/* Estilos generales */
+
+body {
+  font-family: Bungee, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px; /* Ajusta este valor según sea necesario */
+}
+
+/* Estilos del encabezado y menú */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  margin: -10px;
+  margin-right: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  margin-bottom: 60px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-mini {
+  width: 70px;
+  height: auto;
+  margin-left: 25px;
+}
+
+nav {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 10px;
+  margin-left: -20px;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.menu-image {
+  width: 300px;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.menu-image:hover {
+  filter: none;
+}
+
+/* Estilos de las secciones del portafolio */
+
+.ilustraciones h2 color: #c52a6c; font-family: "Bungee", sans-serif;,
+.edicion-videos h2 color: #c52a6c; font-family: "Bungee", sans-serif;,
+.edicion-imagenes h2 color: #c52a6c; font-family: "Bungee", sans-serif;,
+.stickers h2 color: #c52a6c; font-family: "Bungee", sans-serif; {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  justify-items: center;
+  margin-top: 30px;
+}
+
+.gallery img {
+  width: 300px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.gallery video {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+/* Agrega estilos adicionales según sea necesario */
+
+/* Estilos del pie de página */
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.trademark {
+  font-size: 12px;
+  color: #c52a6c;
+  margin-left: 100px;
+}
+
+/* Estilos de las secciones del portafolio */
+
+.portfolio-image {
+  width: 100px;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+  margin-top: 10px;
+}
+
+.portfolio-image:hover {
+  filter: none;
+  transform: scale(0.8);
+  margin-top: 10px;
+}
+
+
+
+.video-item {
+  max-width: 300px;
+  max-height: auto;
+  margin-top: 10px;
+}
+
+
+
+
+
+.square-image {
+  width: 300px;
+  height: auto;
+}
+
