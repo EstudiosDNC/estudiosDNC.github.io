@@ -1,6 +1,5 @@
 /* Estilos para el menú y el icono de mini-logo-dnc-rosa.png */
 header {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,7 +7,6 @@ header {
   background-color: #333;
   margin: -10px;
   margin-right: 10px;
-
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,11 +14,9 @@ header {
   margin-bottom: 60px;
 }
 
-main{
- margin-top: 90px; /* Ajusta el valor según el alto del menú */
- }
-
-
+main {
+  margin-top: 90px; /* Ajusta el valor según el alto del menú */
+}
 
 .logo-container {
   display: flex;
@@ -195,26 +191,21 @@ main{
   transform: translateX(0%); /* Mostrar el texto dentro del contenedor */
 }
 
+/* ******************************* */
 
-/* ******************************* */ 
-
-<- Derechos reservados aqui 
-
-.trademark{
-  position: revert-layer;
+.trademark {
+  position: absolute;
   bottom: 0px;
   left: 10px;
   color: #c52a6c; /* Cambia el color del correo a #c52a6c */
-  margin-left: 100px; /*aplica el margen izquierdo*/
+  margin-left: 100px; /* Aplica el margen izquierdo */
 }
 
+/* descripción */
 
-/*descripción */
-
-#trademark{ 
-position: ;}
-
-
+#trademark {
+  position: revert-layer;
+}
 
 /* Estilos generales */
 
@@ -288,10 +279,12 @@ nav {
 
 /* Estilos de las secciones del portafolio */
 
-.ilustraciones h2 color: #c52a6c; font-family: "Bungee", sans-serif;,
-.edicion-videos h2 color: #c52a6c; font-family: "Bungee", sans-serif;,
-.edicion-imagenes h2 color: #c52a6c; font-family: "Bungee", sans-serif;,
-.stickers h2 color: #c52a6c; font-family: "Bungee", sans-serif; {
+.ilustraciones h2,
+.edicion-videos h2,
+.edicion-imagenes h2,
+.stickers h2 {
+  color: #c52a6c;
+  font-family: "Bungee", sans-serif;
   font-size: 24px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -325,7 +318,6 @@ footer {
   background-color: #f2f2f2;
   padding: 10px;
   text-align: center;
-  
 }
 
 .trademark {
@@ -350,20 +342,13 @@ footer {
   margin-top: 10px;
 }
 
-
-
 .video-item {
   max-width: 300px;
   max-height: auto;
   margin-top: 10px;
 }
 
-
-
-
-
 .square-image {
   width: 300px;
   height: auto;
 }
-
