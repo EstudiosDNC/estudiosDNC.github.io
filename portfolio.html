@@ -21,6 +21,7 @@
       <ul class="menu">
         <li><a href="nosotros.html"><img src="img/logo-nosotros.png" alt="Nosotros" class="menu-image"></a></li>
         <li><a href="#productos"><img src="img/logo-productos.png" alt="Productos" class="menu-image"></a></li>
+        <li><a href="portfolio.html"><img src="img/logo-galeria.png" alt="galeria" class="menu-image"></a></li>
         <li><a href="https://www.instagram.com/estudios_dnc/" target="_blank"><img src="img/logo-instagram.png" alt="Instagram" class="menu-image"></a></li>
         <li><a href="https://www.tiktok.com/@dancort_art" target="_blank"><img src="img/logo-tiktok.png" alt="TikTok" class="menu-image"></a></li>
         <li><a href="https://www.twitch.tv/dancort" target="_blank"><img src="img/logo-twitch.png" alt="Twitch" class="menu-image"></a></li>
@@ -32,77 +33,123 @@
   </header>
 
   <!-- Contenido de la página -->
+  /////////////////////////////////////
   <section class="ilustraciones">
     <h2>Ilustraciones</h2>
-    <div class="gallery">
-      <?php
-      $imageFolder = 'img/portafolio/ilustraciones/';
-
-      $files = scandir($imageFolder);
-
-      foreach ($files as $file) {
-        if (in_array(pathinfo($file, PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif'])) {
-          echo '<img src="' . $imageFolder . $file . '" alt="' . $file . '">';
-        }
-      }
-      ?>
-    </div>
+   
+     <div class="gallery">
+        <section class="banner">
+          <div class="transition-item">
+            <img src="img/portafolio/ilustraciones/dibtorreta.png" alt="Ilustraciones" class="transition-image">
+          </div>
+    
+          <div class="transition-item">
+            <img src="img/portafolio/ilustraciones/dibyop.png" alt="Ilustraciones" class="transition-image">
+          </div>
+  
+          <div class="transition-item">
+            <img src="img/portafolio/ilustraciones/granada.png" alt="Ilustraciones" class="transition-image">
+          </div>
+          
+          <div class="transition-item">
+            <img src="img/portafolio/ilustraciones/mery.png" alt="Ilustraciones" class="transition-image">
+          </div>
+  
+        </section>
+      </div>
   </section>
-
+//////////////////////////////////////////// 
+  /////////////////////////////////////
   <section class="edicion-videos">
-    <h2>Edición de Videos</h2>
-    <div class="gallery">
-      <?php
-      $imageFolder = 'img/portafolio/edicion-videos/';
-
-      $files = scandir($imageFolder);
-
-      foreach ($files as $file) {
-        if (in_array(pathinfo($file, PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif'])) {
-          echo '<img src="' . $imageFolder . $file . '" alt="' . $file . '">';
-        }
-      }
-      ?>
-    </div>
+    <h2 color: #c52a6c;
+      font-family: "Bungee", sans-serif;>Edición de Videos</h2>
+   
+     <div class="gallery">
+        <section class="banner">
+          <div class="transition-item">
+            <video>
+              <source src="img/portafolio/edicion-videos/video1.mp4" alt="Ilustraciones" class="transition-image"> type="video/mp4">
+            </video>  
+          </div>
+    
+          <div class="transition-item">
+            <video>
+              <source src="img/portafolio/edicion-videos/video0.mp4" alt="Ilustraciones" class="transition-image"> type="video/mp4">
+            </video>  
+          </div>
+  
+          <div class="transition-item">
+            <video>
+              <source src="img/portafolio/edicion-videos/video3.mp4" alt="Ilustraciones" class="transition-image"> type="video/mp4">
+            </video>  
+          </div>
+          
+          <div class="transition-item">
+            <video>
+              <source src="img/portafolio/edicion-videos/video2.mp4" alt="Ilustraciones" class="transition-image"> type="video/mp4">
+            </video>  
+          </div>
+  
+        </section>
+      </div>
   </section>
-
+////////////////////////////////////////////  
+  /////////////////////////////////////
   <section class="edicion-imagenes">
-    <h2>Edición de Imágenes</h2>
-    <div class="gallery">
-      <?php
-      $imageFolder = 'img/portafolio/edicion-imagenes/';
-
-      $files = scandir($imageFolder);
-
-      foreach ($files as $file) {
-        if (in_array(pathinfo($file, PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif'])) {
-          echo '<img src="' . $imageFolder . $file . '" alt="' . $file . '">';
-        }
-      }
-      ?>
-    </div>
+    <h2 color: #c52a6c;
+      font-family: "Bungee", sans-serif;>Stickers</h2>
+   
+     <div class="gallery">
+        <section class="banner">
+          <div class="transition-item">
+            <img src="img/portafolio/edicion-imagenes/Earphone.png" alt="Ilustraciones" class="transition-image">
+          </div>
+    
+          <div class="transition-item">
+            <img src="img/portafolio/edicion-imagenes/esquina.png" alt="Ilustraciones" class="transition-image">
+          </div>
+  
+          <div class="transition-item">
+            <img src="img/portafolio/edicion-imagenes/loteria1.png" alt="Ilustraciones" class="transition-image">
+          </div>
+          
+          <div class="transition-item">
+            <img src="img/portafolio/edicion-imagenes/morada.png" alt="Ilustraciones" class="transition-image">
+          </div>
+  
+        </section>
+      </div>
   </section>
-
+////////////////////////////////////////////
+  /////////////////////////////////////
   <section class="stickers">
-    <h2>Stickers</h2>
-    <div class="gallery">
-      <?php
-      $imageFolder = 'img/portafolio/stickers/';
-
-      $files = scandir($imageFolder);
-
-      foreach ($files as $file) {
-        if (in_array(pathinfo($file, PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif'])) {
-          echo '<img src="' . $imageFolder . $file . '" alt="' . $file . '">';
-        }
-      }
-      ?>
-    </div>
+    <h2 color: #c52a6c;
+      font-family: "Bungee", sans-serif;>Stickers</h2>
+   
+     <div class="gallery">
+        <section class="banner">
+          <div class="transition-item">
+            <img src="img/portafolio/stikers/Pildora004.png" alt="Ilustraciones" class="transition-image">
+          </div>
+    
+          <div class="transition-item">
+            <img src="img/portafolio/stikers/cat.png" alt="Ilustraciones" class="transition-image">
+          </div>
+  
+          <div class="transition-item">
+            <img src="img/portafolio/stikers/curita.png" alt="Ilustraciones" class="transition-image">
+          </div>
+          
+          <div class="transition-item">
+            <img src="img/portafolio/stikers/conejo.png" alt="Ilustraciones" class="transition-image">
+          </div>
+  
+        </section>
+      </div>
   </section>
-
-  <!-- Agrega más secciones según sea necesario -->
-
-  <script src="js/portafolio.js"></script>
+////////////////////////////////////////////
+  
+  
 </body>
 
   <footer class="trademark">
