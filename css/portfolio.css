@@ -105,3 +105,17 @@ footer {
   color: #c52a6c;
   margin-left: 100px;
 }
+
+/* Estilos de las secciones del portafolio */
+
+.portfolio-image {
+  width: 250px;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.portfolio-image:hover {
+  filter: none;
+  transform: scale(1.1);
+}
