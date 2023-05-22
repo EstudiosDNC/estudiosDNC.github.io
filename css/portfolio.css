@@ -90,6 +90,11 @@ nav {
   height: auto;
 }
 
+.gallery video {
+  width: 100%;
+  height: auto;
+}
+
 /* Agrega estilos adicionales según sea necesario */
 
 /* Estilos del pie de página */
