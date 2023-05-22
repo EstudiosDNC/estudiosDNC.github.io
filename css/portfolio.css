@@ -76,6 +76,7 @@ nav {
 .stickers h2 {
   font-size: 24px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .gallery {
@@ -83,16 +84,19 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
   justify-items: center;
+  margin-top: 10px;
 }
 
 .gallery img {
   width: 100%;
   height: auto;
+  margin-top: 10px;
 }
 
 .gallery video {
   width: 100%;
   height: auto;
+  margin-top: 10px;
 }
 
 /* Agrega estilos adicionales según sea necesario */
@@ -103,6 +107,7 @@ footer {
   background-color: #f2f2f2;
   padding: 10px;
   text-align: center;
+  
 }
 
 .trademark {
@@ -114,15 +119,17 @@ footer {
 /* Estilos de las secciones del portafolio */
 
 .portfolio-image {
-  width: 250px;
+  width: 100px;
   height: auto;
   filter: grayscale(100%);
   transition: filter 0.3s ease, transform 0.3s ease;
+  margin-top: 10px;
 }
 
 .portfolio-image:hover {
   filter: none;
   transform: scale(1.1);
+  margin-top: 10px;
 }
 
 
@@ -130,6 +137,7 @@ footer {
 .video-item {
   max-width: 100px;
   max-height: auto;
+  margin-top: 10px;
 }
 
 
