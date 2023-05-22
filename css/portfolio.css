@@ -4,6 +4,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  margin-top: 50px; /* Ajusta este valor según sea necesario */
 }
 
 /* Estilos del encabezado y menú */
