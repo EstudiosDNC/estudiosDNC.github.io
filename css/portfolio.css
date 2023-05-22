@@ -124,3 +124,19 @@ footer {
   filter: none;
   transform: scale(1.1);
 }
+
+
+
+.video-item {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+
+
+
+
+.square-image {
+  width: 70px;
+  height: 70px;
+}
