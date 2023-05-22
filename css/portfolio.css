@@ -135,7 +135,7 @@ footer {
 
 
 .video-item {
-  max-width: 300px;
+  max-width: 600px;
   max-height: auto;
   margin-top: 10px;
 }
@@ -145,7 +145,7 @@ footer {
 
 
 .square-image {
-  width: 25px;
+  width: 15px;
   height: auto;
 }
 
