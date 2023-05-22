@@ -128,8 +128,8 @@ footer {
 
 
 .video-item {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 100px;
+  max-height: auto;
 }
 
 
@@ -138,5 +138,5 @@ footer {
 
 .square-image {
   width: 70px;
-  height: 70px;
+  height: auto;
 }
