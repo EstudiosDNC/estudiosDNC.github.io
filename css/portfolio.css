@@ -119,8 +119,8 @@ footer {
 /* Estilos de las secciones del portafolio */
 
 .portfolio-image {
-  width: 50%;
-  height: 50%;
+  width: 100px;
+  height: auto;
   filter: grayscale(100%);
   transition: filter 0.3s ease, transform 0.3s ease;
   margin-top: 10px;
@@ -145,7 +145,7 @@ footer {
 
 
 .square-image {
-  width: 50%;
+  width: 50px;
   height: auto;
 }
 
